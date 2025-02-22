@@ -17,10 +17,12 @@ body {
     text-align: center;
 }
 
-input {
-    width: 350px;
-    margin: 5px 0;
+input, button {
+    display: block;
+    width: calc(100% - 0px); /* Fits within the container */
+    margin: 10px auto; /* Centers and adds spacing */
     padding: 10px;
+    box-sizing: border-box;
 }
 
 button {
