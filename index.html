@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="login-container">
         <h2>Login</h2>
-        <input type="text" id="username" placeholder="Username" required>
-        <input type="text" id="password" placeholder="Password" required>
-        <button onclick="login()">Login</button>
-        <button onclick="signup()">Sign Up</button>
-        <p id="message"></p>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+            <button type="button" onclick="login()">Login</button>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
