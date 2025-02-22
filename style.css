@@ -5,6 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
 .login-container {
@@ -45,19 +47,35 @@ table {
     align-self: left;
 }
 
-.dashBody {
+.left-column {
+    flex: 1;
+    background-color: #833232;
+}
+.right-column {
     background-color: aqua;
+    flex: 1;
     display: flex;
+    flex-direction: column;
 }
 
-.calendar {
-    background-color: blueviolet;
-}
 
-.selectedCourses {
-    background-color: black;
-}
 
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
 .courseList {
-    background-color: azure;
+    background-color: #e0e0e0;
+    height: 100%;
+    
+}
+.calendar {
+    background-color: #e0e0e0;
+}
+.selectedCourses {
+    background-color: #e0e0e0;
 }
