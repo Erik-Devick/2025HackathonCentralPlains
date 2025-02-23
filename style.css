@@ -18,13 +18,14 @@ body {
     height: 100vh;
 }
 .left-column {
-    width: 20%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
 .right-column {
+    max-width: 75%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -56,6 +57,8 @@ body {
     border-radius: 10px;
     border: black 1px solid;
     margin-top: 5px;
+    padding: 10px;
+    font-size: large;
 }
 table {
     border-collapse: collapse;
